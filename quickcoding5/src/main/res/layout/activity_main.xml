@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/activity_main"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.quickcoding5.MainActivity">
+
+
+
+    <LinearLayout
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/L1">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="?レ옄? ?ㅽ듃留곸쓣 ?낅젰?섏떆??!!!!"
+                android:textSize="25dp"
+                tools:text="?レ옄? ?ㅽ듃留곸쓣 ?낅젰" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/Ed1"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:ems="30"
+                    android:textSize="20dp"
+                    android:hint="    "
+                    android:layout_toLeftOf="@+id/input"
+                    android:layout_toStartOf="@+id/input"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/input1"
+                    android:layout_height="wrap_content"
+                    android:text="INPUT"
+                    android:textSize="25dp"
+                    android:layout_width="170dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+
+                android:id="@+id/output1"
+                android:layout_height="wrap_content"
+                android:text="FINISH"
+                android:textSize="30dp"
+                android:layout_width="350dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_centerVertical="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Intiger"
+                        android:textSize="25dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="25dp"
+                        android:id="@+id/re1"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="String"
+                        android:textSize="25dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="25dp"
+                        android:id="@+id/re2"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="초기회?"
+            android:id="@+id/reset"
+        android:layout_below="@+id/input"
+        android:layout_alignRight="@+id/input"
+        android:layout_alignEnd="@+id/input"
+        android:layout_toRightOf="@+id/finish"
+        android:layout_toEndOf="@+id/finish" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
