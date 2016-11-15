@@ -29,9 +29,9 @@ public class MainActivity extends AppCompatActivity {
         input.setOnClickListener(
                 new View.OnClickListener(){
                     public void onClick(View view){
-                        String string=input.getText().toString();
+                        String string = input.getText().toString();
                         try{
-                            int intvar=Integer.parseInt(string);
+                            Integer intvar = Integer.parseInt(string);
                             array.arr_integer.add(intvar);
                         }catch (Exception e){
                             array.arr_string.add(string);
@@ -43,8 +43,9 @@ public class MainActivity extends AppCompatActivity {
         output.setOnClickListener(
                 new View.OnClickListener(){
                     public void onClick(View view){
-                        strtext.setText(" "+array.arr_string);
                         inttext.setText(" "+array.arr_integer);
+                        strtext.setText(" "+array.arr_string);
+
                     }
                 }
         );
