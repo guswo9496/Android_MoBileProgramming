@@ -1,4 +1,4 @@
-package com.example.MyLocationLogger;
+package com.example.mylocationlogger;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

@@ -17,7 +17,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="35dp"
-            android:text="?뱀떊???レ옄??臾댁뿀?쇨퉴??"/>
+            android:text=""/>
 
 
     </LinearLayout>
@@ -60,14 +60,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="25dp"
-            android:text="?덉쓽 ?レ옄???닿쾬?대떎!"/>
+            android:text="input"/>
 
         <Button
             android:id="@+id/sbt1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="25dp"
-            android:text="?щ떎"
+            android:text="Bigger"
             android:onClick="onClick"/>
 
         <Button
@@ -75,7 +75,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="25dp"
-            android:text="?묐떎"
+            android:text="Smaller"
             android:onClick="onClick"/>
 
         <Button
@@ -83,7 +83,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="25dp"
-            android:text="鍮숆퀬"
+            android:text="Binggo"
             android:onClick="onClick"/>
 
     </LinearLayout>

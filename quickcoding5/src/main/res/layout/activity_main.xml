@@ -23,9 +23,9 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="?レ옄? ?ㅽ듃留곸쓣 ?낅젰?섏떆??!!!!"
+                android:text="input integer and string"
                 android:textSize="25dp"
-                tools:text="?レ옄? ?ㅽ듃留곸쓣 ?낅젰" />
+                tools:text="input integer and string" />
         </LinearLayout>
 
         <LinearLayout

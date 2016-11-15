@@ -5,7 +5,7 @@ android {
     buildToolsVersion "25.0.0"
 
     defaultConfig {
-        applicationId "com.example.qucikcoding3"
+        applicationId "com.example.mylocationlogger"
         minSdkVersion 19
         targetSdkVersion 24
         versionCode 1

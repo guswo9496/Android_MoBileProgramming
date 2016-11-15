@@ -1,4 +1,4 @@
-package com.example.MyLocationLogger;
+package com.example.mylocationlogger;
 
 import org.junit.Test;
 
