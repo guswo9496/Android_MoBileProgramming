@@ -8,8 +8,10 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/MyLocationLogger" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/app2" />
+            <option value="$PROJECT_DIR$/fork" />
+            <option value="$PROJECT_DIR$/mylocationlogger" />
             <option value="$PROJECT_DIR$/newmylocationlogger" />
             <option value="$PROJECT_DIR$/quickcoding2" />
             <option value="$PROJECT_DIR$/quickcoding5" />

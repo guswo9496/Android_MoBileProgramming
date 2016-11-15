@@ -3,8 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MobileProgramming.iml" filepath="$PROJECT_DIR$/MobileProgramming.iml" />
-      <module fileurl="file://$PROJECT_DIR$/MyLocationLogger/MyLocationLogger.iml" filepath="$PROJECT_DIR$/MyLocationLogger/MyLocationLogger.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app2/app2.iml" filepath="$PROJECT_DIR$/app2/app2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fork/fork.iml" filepath="$PROJECT_DIR$/fork/fork.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mylocationlogger/mylocationlogger.iml" filepath="$PROJECT_DIR$/mylocationlogger/mylocationlogger.iml" />
       <module fileurl="file://$PROJECT_DIR$/newmylocationlogger/newmylocationlogger.iml" filepath="$PROJECT_DIR$/newmylocationlogger/newmylocationlogger.iml" />
       <module fileurl="file://$PROJECT_DIR$/quickcoding2/quickcoding2.iml" filepath="$PROJECT_DIR$/quickcoding2/quickcoding2.iml" />
       <module fileurl="file://$PROJECT_DIR$/quickcoding5/quickcoding5.iml" filepath="$PROJECT_DIR$/quickcoding5/quickcoding5.iml" />
