@@ -1,4 +1,4 @@
-package com.example.qucikcoding3;
+package com.example.MyLocationLogger;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

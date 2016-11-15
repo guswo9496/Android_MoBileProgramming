@@ -1,4 +1,4 @@
-package com.example.qucikcoding3;
+package com.example.MyLocationLogger;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.qucikcoding3", appContext.getPackageName());
+        assertEquals("com.example.MyLocationLogger", appContext.getPackageName());
     }
 }
