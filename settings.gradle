@@ -1,1 +1,1 @@
-include ':app', ':quickconding1', ':quickcoding2', ':quickcoding5', ':mylocationlogger', ':newmylocationlogger', ':fork', ':app2', ':quickcoding_sensor', ':mylocationLogger2_last', ':mylocationlogger2'
+include ':app', ':quickconding1', ':quickcoding2', ':quickcoding5', ':mylocationlogger', ':newmylocationlogger', ':fork', ':app2', ':quickcoding_sensor', ':mylocationLogger2_last', ':mylocationlogger2', ':quickcoding_pedometer'
